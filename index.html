@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>legal-information</title>
+    <link rel="stylesheet" href="style.css">
     <!-- daisy ui -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
@@ -22,6 +23,7 @@
            colors: {
              clifford: '#da373d',
              'tea-pot': '#B1A055',
+             'allex-hels':'#FFF;',
            }
          }
        }
@@ -97,7 +99,7 @@
     <main>
          <div class="grid grid-cols md:grid-cols-2 lg:grid-cols-3 lg:px-32">
            <!-- card reader one  -->
-        <div class="card p-12">
+        <div class="card p-12  border-b border-r">
           <figure><img class="w-10" src="images/business.png" alt="Shoes" /></figure>
           <div class="card-body">
             <div class="text-center">
@@ -109,7 +111,7 @@
           </div>
         </div>
            <!-- card reader two  -->
-        <div class="card bg-[#f3f3f3] shadow-sm p-12">
+        <div class="card bg-[#f3f3f3] shadow-sm p-12  border-b border-r">
           <figure><img class="w-10" src="images/criminal.png" alt="Shoes" /></figure>
           <div class="card-body">
             <div class="text-center">
@@ -121,7 +123,7 @@
           </div>
         </div>
            <!-- card reader three  -->
-        <div class="card p-12">
+        <div class="card p-12  border-b border-r">
           <figure><img class="w-10" src="images/child.png" alt="Shoes" /></figure>
           <div class="card-body">
             <div class="text-center">
@@ -133,7 +135,7 @@
           </div>
         </div>
            <!-- card reader four  -->
-        <div class="card p-12">
+        <div class="card p-12  border-b border-r">
           <figure><img class="w-10" src="images/education.png" alt="Shoes" /></figure>
           <div class="card-body">
             <div class="text-center">
@@ -145,7 +147,7 @@
           </div>
         </div>
            <!-- card reader five  -->
-        <div class="card p-12">
+        <div class="card p-12  border-b border-r">
           <figure><img class="w-10" src="images/divorce.png" alt="Shoes" /></figure>
           <div class="card-body">
             <div class="text-center">
@@ -157,7 +159,7 @@
           </div>
         </div>
            <!-- card reader six  -->
-        <div class="card p-12">
+        <div class="card p-12  border-b border-r">
           <figure><img class="w-10" src="images/tax.png" alt="Shoes" /></figure>
           <div class="card-body">
             <div class="text-center">
@@ -183,9 +185,9 @@
             <!-- slider one  -->
             <div id="slide1" class="carousel-item relative w-full">
              <div class=" relative"><img src="images/slider-1.jpg" class="w-full" />
-              <img src="" alt="">
               <h4 class="absolute inset-0 text-6xl text-white text-center pt-20">Awlad Hossain</h4>
-
+              <h6 class="absolute inset-0 text-xl text-white text-center pt-20 mt-20" >UIX Designer</h6>
+              <p class="absolute inset-0 text-xl text-white text-center pt-20 mt-40">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
             </div> 
               <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                 <a href="#slide3" class="btn btn-circle">❮</a> 
@@ -230,6 +232,7 @@
 
          <section class="flex justify-around items-center flex-col lg:flex-row px-8 lg:px-16 py-5 my-10 gap-12">
           <div class="flex-1 space-y-6">
+            <!-- one  -->
             <div class="collapse collapse-plus bg-base-200">
               <input type="radio" name="my-accordion-3" checked="checked" /> 
               <div class="collapse-title text-xl font-medium">
@@ -239,6 +242,7 @@
                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, . </p>
               </div>
             </div>
+            <!-- two  -->
             <div class="collapse collapse-plus bg-base-200">
               <input type="radio" name="my-accordion-3" /> 
               <div class="collapse-title text-xl font-medium">
@@ -248,6 +252,7 @@
                 <p>Why bother so much?</p>
               </div>
             </div>
+            <!-- three  -->
             <div class="collapse collapse-plus bg-base-200">
               <input type="radio" name="my-accordion-3" /> 
               <div class="collapse-title text-xl font-medium">
@@ -257,6 +262,7 @@
                 <p>Why bother so much?</p>
               </div>
             </div>
+            <!-- four  -->
             <div class="collapse collapse-plus bg-base-200">
               <input type="radio" name="my-accordion-3" checked="checked" /> 
               <div class="collapse-title text-xl font-medium">
@@ -287,26 +293,30 @@
 
           <section class="w-[90%] mx-auto flex flex-col lg:flex-row  gap-10">
             <div class="flex-1 grid grid-cols-2">
+              <!-- one  -->
               <div class="bg-[#F3F3F3] border-b border-r flex justify-center">
                 <div class="text-center py-8"><img class="w-max mx-auto" src="images/address.png" alt="">
                   <h4>Address</h4>
                   <p>A108 Adam Street,<br>
                     New York, NY 535022</p></div>
               </div>
-              <div class=" bg-[#F3F3F3] border">
-                <div><img src="images/call.png" alt="">
+              <!-- two  -->
+              <div class=" bg-[#F3F3F3] border-b border-r flex justify-center">
+                <div class="text-center py-8"><img class="w-max mx-auto" src="images/call.png" alt="">
                   <h4>Address</h4>
                   <p>A108 Adam Street,<br>
                     New York, NY 535022</p></div>
               </div>
-              <div class=" bg-[#F3F3F3]">
-                <div><img src="images/email.png" alt="">
+              <!-- three  -->
+              <div class=" bg-[#F3F3F3] border-b border-r flex justify-center">
+                <div class="text-center py-8"><img class="w-max mx-auto" src="images/email.png" alt="">
                   <h4>Address</h4>
                   <p>A108 Adam Street,<br>
                     New York, NY 535022</p></div>
               </div>
-              <div class=" bg-[#F3F3F3]">
-                <div><img src="images/time.png" alt="">
+              <!-- four  -->
+              <div class=" bg-[#F3F3F3] border-b border-r flex justify-center">
+                <div class="text-center py-8"><img class="w-max mx-auto" src="images/time.png" alt="">
                   <h4>Address</h4>
                   <p>A108 Adam Street,<br>
                     New York, NY 535022</p></div>
@@ -322,13 +332,43 @@
 <input type="text" placeholder="Subject" class="input input-bordered input-lg w-full bg-[#F3F3F3]" />
 <!-- lg -->
 <input type="text" placeholder="Your Message" class="input input-bordered input-lg w-full bg-[#F3F3F3]" />
-            </div>
+<button class=" bg-tea-pot w-full py-5 rounded-md">Send Message</button>           
+</div>
           </section>
 
     </main>
 
 
-    <footer></footer>
+    <footer>
+      <footer class="footer p-10 bg-base-200 text-base-content mt-20 font-garamond font-bold allex-hels">
+        <div>
+          <img src="images/logo2.png" alt="">
+          <p>There are many variations of <br> passages of Lorem Ipsum <br> available, but the majority have <br> suffered alteration in some <br> form, by injected humour.</p>
+        </div> 
+        <div>
+          <span class="footer-title">Usefull Link</span> 
+          <a class="link link-hover">Home</a> 
+          <a class="link link-hover">About Us</a> 
+          <a class="link link-hover">Cases</a> 
+          <a class="link link-hover">Blog</a>
+          <a class="link link-hover">Contact Us</a>
+        </div> 
+        <div>
+          <span class="footer-title">Contact Now</span> 
+          <a class="link link-hover">555 4th 5t NW, Washington <br>
+            DC 20530, United States</a> 
+          <a class="link link-hover">+88 01750 000 000 <br>
+            +88 01750 000 000</a> 
+          <a class="link link-hover">info@gmail.com <br>
+            info@gmail.com</a> 
+        </div> 
+        <div>
+          <span class="footer-title">Subscribe</span> 
+          <a class="link link-hover">Subscribe for our latest & <br> Articles. We Won’t Give You <br> Spam Mails</a> 
+          <input type="text" placeholder="Email Address" class="input input-bordered w-full pr-16" /> 
+        </div>
+      </footer>
+    </footer>
 
 </body>
 </html>
